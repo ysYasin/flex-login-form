@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Lobster+Two&family=Montserrat&family=Oswald&family=Pangolin&family=Vina+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(244, 91, 105);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.form-nav-header {
+    background: #00000036;
+    padding: 20px 20px;
+    width: 100vw;
+}
+
+nav {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul:nth-child(1) {
+    gap: 90px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aqua;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Pangolin', cursive;
+}
+
+nav ul:nth-child(1) li a i {
+    color: aqua;
+}
+
+nav ul li a:hover {
+    color: aquamarine;
+}
+
+nav ul:nth-child(1) li a:hover i {
+    color: aquamarine;
+}
+
+nav ul li a i {
+    color: black;
+    font-size: 30px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a i:hover {
+    color: aqua;
+}
+
+.form-sec-login-fex {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ipu-head {
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgb(80, 79, 79);
+}
+
+.round {
+    width: 24vw;
+    height: 50vh;
+    background: rgb(182, 212, 219);
+    border-radius: 50%;
+    position: absolute;
+    right: -87px;
+
+}
+
+.ipu-head input {
+    border: none;
+    width: 70%;
+    border-radius: 5px;
+    align-items: center;
+    background: #f8f2f2;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 10px;
+    margin-left: 50px;
+    z-index: 2;
+    outline: none;
+    border: none;
+}
+
+.ipu-head input[type="submit"] {
+    width: 8em;
+    color: #f8f2f2;
+    background-color: rgb(244, 91, 105);
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.ipu-head input[type="submit"]:hover {
+    background-color: rgb(182, 212, 219);
+    color: black;
+}
